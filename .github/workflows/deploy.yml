@@ -34,3 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publishto the `gh-pages` branch:
           publish_dir: ./build
+#          cname: custom-domain.com               # custom domain 사용시 활성화해야 됌

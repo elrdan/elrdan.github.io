@@ -21,3 +21,4 @@ my-website/npm-debug.log*
 my-website/yarn-debug.log*
 my-website/yarn-error.log*
 my-website/.gitignore
+my-website/node_modules
