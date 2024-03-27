@@ -33,5 +33,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publishto the `gh-pages` branch:
-          publish_dir: ./my-website./build
+          publish_dir: ./my-website/build
           cname: elrdan.com               # custom domain 사용시 활성화해야 됌
