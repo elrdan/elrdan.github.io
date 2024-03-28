@@ -24,8 +24,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['en', 'ko'],
   },
 
   presets: [
@@ -33,9 +33,6 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js'
-        },
         blog: {
           blogTitle: '블로그',
           blogDescription: '엘르단 블로그입니다!',
@@ -61,7 +58,7 @@ const config = {
         },
         items: [
           {to: '/blog', label: '블로그', position: 'left'},
-          {to: '/project/docs', label: '프로젝트', position: 'left'},
+          {to: '/project', label: '프로젝트', position: 'left'},
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'tutorialSidebar',
