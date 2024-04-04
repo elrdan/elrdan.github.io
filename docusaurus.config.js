@@ -11,7 +11,7 @@ const github_url = "https://github.com/elrdan"
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Elrdan',
-  tagline: '안녕하세요 Elrdan Site 방문을 환영합니다.',
+  tagline: '안녕하세요. 엘르단 사이트 방문을 환영합니다.',
   favicon: 'img/blog_logo.jpg',
 
   url: 'https://elrdan.github.io/',
@@ -80,17 +80,17 @@ const config = {
         // 옵션: 아래 문서를 참고
         contextualSearch: true,
 
-        // 옵션: history.push 대신 window.location을 통해 탐색해야 하는 도메인을 지정합니다. 여러 문서 사이트를 크롤링하고 window.location.href를 사용하여 해당 사이트로 이동하려는 경우에 유용한 알골리아 설정입니다.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-
-        // 옵션: 알골리아에서 URL 일부를 바꿉니다. 다른 baseUrl을 사용하는 여러 배포본에 대해 같은 검색 인덱스를 사용할 경우 유용합니다. `from` 파라미터에 정규식이나 문자열을 사용할 수 있습니다. 예를 들면 localhost:3000 과 myCompany.com/docs 같은 경우입니다.
-        replaceSearchResultPathname: {
-          from: '/blog/', // or as RegExp: /\/docs\//
-          to: '/',
-        },
-
-        // 옵션: 알골리아 검색 파라미터
-        searchParameters: {},
+        // // 옵션: history.push 대신 window.location을 통해 탐색해야 하는 도메인을 지정합니다. 여러 문서 사이트를 크롤링하고 window.location.href를 사용하여 해당 사이트로 이동하려는 경우에 유용한 알골리아 설정입니다.
+        // externalUrlRegex: 'external\\.com|domain\\.com',
+        //
+        // // 옵션: 알골리아에서 URL 일부를 바꿉니다. 다른 baseUrl을 사용하는 여러 배포본에 대해 같은 검색 인덱스를 사용할 경우 유용합니다. `from` 파라미터에 정규식이나 문자열을 사용할 수 있습니다. 예를 들면 localhost:3000 과 myCompany.com/docs 같은 경우입니다.
+        // replaceSearchResultPathname: {
+        //   from: '/\/blog\//', // or as RegExp: /\/docs\//
+        //   to: '/',
+        // },
+        //
+        // // 옵션: 알골리아 검색 파라미터
+        // searchParameters: {},
 
         // 옵션: 기본적으로 활성화된 검색 페이지 경로(비활성화하려면 `false`로 설정)
         searchPagePath: 'false',

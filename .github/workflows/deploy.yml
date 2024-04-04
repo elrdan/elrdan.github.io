@@ -18,13 +18,12 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: my-website/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies and Build website
         run: |
           npm ci
           npm run build
-        working-directory: ./my-website
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
@@ -33,5 +32,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publishto the `gh-pages` branch:
-          publish_dir: ./my-website/build
+          publish_dir: build
           cname: elrdan.com               # custom domain 사용시 활성화해야 됌
