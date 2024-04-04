@@ -9,8 +9,8 @@ function HomepageHeader() {
       <header className={styles.introContainer}>
           <div className={styles.titleWrapper}>
               <div className={styles.titleContent}>
-                  <span>{siteConfig.tagline}</span>
-                  <span>최대한 정확한 정보를 공유하고, 소통할 수 있는 사이트로 발전하고 싶습니다.</span>
+                  <span className={styles.title}>{siteConfig.tagline}</span>
+                  <span className={styles.subTitle}>정보 공유 및 소통할 수 있는 사이트입니다.</span>
               </div>
 
               <div className={styles.titleCharacter}>
