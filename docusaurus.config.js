@@ -33,6 +33,11 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        docs: {
+          id: 'project', // 이 플러그인 인스턴스의 고유 ID
+          path: './project', // 문서 파일이 위치한 디렉토리
+          routeBasePath: '/project', // 이 문서 섹션의 기본 경로
+        },
         blog: {
           blogTitle: '블로그',
           blogDescription: '엘르단 블로그입니다!',
@@ -106,15 +111,6 @@ const config = {
 
   // 사용자 정의 플러그인 설정
   plugins: [
-      [
-        '@docusaurus/plugin-content-docs',
-        {
-          id: 'project', // 이 플러그인 인스턴스의 고유 ID
-          path: './project', // 문서 파일이 위치한 디렉토리
-          routeBasePath: '/project', // 이 문서 섹션의 기본 경로
-          // sidebarPath: require.resolve('./sidebarsProjectDocs.js'), // 이 섹션의 사이드바 구성
-        },
-      ],
       'docusaurus-plugin-sass'      // sass 설정
   ]
 };
