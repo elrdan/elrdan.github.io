@@ -34,14 +34,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          id: 'project', // 이 플러그인 인스턴스의 고유 ID
-          path: './project', // 문서 파일이 위치한 디렉토리
-          routeBasePath: '/project', // 이 문서 섹션의 기본 경로
-        },
-        blog: {
-          blogTitle: '블로그',
-          blogDescription: '엘르단 블로그입니다!',
-          showReadingTime: true,
+          routeBasePath: 'blog', // 이 문서 섹션의 기본 경로
+          // sidebarPath: ''
         },
         theme: {
           customCss: './src/css/custom.scss',
@@ -64,12 +58,6 @@ const config = {
         items: [
           {to: '/blog', label: '블로그', position: 'left'},
           {to: '/project', label: '프로젝트', position: 'left'},
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
           {
             href: github_url,
             label: 'GitHub',
@@ -111,6 +99,15 @@ const config = {
 
   // 사용자 정의 플러그인 설정
   plugins: [
+      // [
+      //     '@docusaurus/plugin-content-docs',
+      //     {
+      //       id: 'project',
+      //       path: 'project',
+      //       routeBasePath: 'project',
+      //       sidebarPath: require.resolve('./sidebarsProject.js'),
+      //     }
+      // ],
       'docusaurus-plugin-sass'      // sass 설정
   ]
 };

@@ -1,21 +1,14 @@
 const sidebars = {
-    // blog: [
-    //     'introduction',
-    //     {
-    //         type: 'category',
-    //         label: 'Test',
-    //         link: {
-    //             type: 'doc'
-    //         },
-    //         collapsed: false,
-    //         items: [
-    //             'installation',
-    //             'configuration',
-    //             'playground',
-    //             'typescript-support',
-    //         ],
-    //     }
-    // ]
+	docs: [
+		'blog',
+		{
+			type: 'category',
+			label: 'blog',
+			item: [
+				'/blog/eip/'
+			]
+		},
+	]
 };
 
 export default sidebars;
