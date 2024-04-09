@@ -57,7 +57,7 @@ const config = {
         },
         items: [
           {to: '/blog', label: '블로그', position: 'left'},
-          {to: '/project', label: '프로젝트', position: 'left'},
+          // {to: '/project', label: '프로젝트', position: 'left'},
           {
             href: github_url,
             label: 'GitHub',
