@@ -1,3 +1,5 @@
+@import '~katex/dist/katex.min.css';
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #db4242;
@@ -19,4 +21,8 @@
   --ifm-color-primary-lighter: #dc4b47;
   --ifm-color-primary-lightest: #e26a67;
   //--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+table tr {
+  background-color: transparent !important; // 테이블 배경색을 투명하게 설정
 }

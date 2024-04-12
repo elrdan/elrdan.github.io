@@ -1,14 +1,9 @@
-const sidebars = {
-	docs: [
-		'blog',
-		{
-			type: 'category',
-			label: 'blog',
-			item: [
-				'/blog/eip/'
-			]
-		},
-	]
+module.exports = {
+  blog: [
+    {
+      type: 'category',
+      label: '정보처리기사 실기',
+      items: ['blog/eip/language-1'],
+    }
+  ]
 };
-
-export default sidebars;
