@@ -2,6 +2,7 @@
 sidebar_position: 1
 sidebar_label: 6. 프로그래밍 언어 - 1
 keywords: [정보처리기사 실기]
+hide_title: true
 ---
 
 ### 진수
