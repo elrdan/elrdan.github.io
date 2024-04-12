@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
-sidebar_label: 6. 프로그래밍 언어 - 1
-keywords: [정보처리기사 실기]
+sidebar_label: 1) 진수, 아스키 코드
+keywords: [정보처리기사 실기, 진수, 아스키 코드]
 hide_title: true
 ---
 
-### 진수
+## 진수
   1. 진수는 특정 개수의 숫자만을 이용하여 수를 나타내는 수 체계입니다.
-### 진수 변환
+## 진수 변환
   1. 10진수를 n진수로 변환
      - 10진수 값의 몫이 n보다 작을 때까지 n으로 나누고 나머지 값들을 표시한 후 나머지 갓들을 읽습니다.     
       <br/>
@@ -38,7 +38,7 @@ hide_title: true
        [결과] 18 
        ```
        <br/>
-### 아스키 코드
+## 아스키 코드
   1. **아스키 코드(ASCII; American Standard Code Information Interchange)**
      - 아스키 코드는 미국 ANSI에서 표준화한 정보교환용 부호체계입니다.
      - 영문 키보드로 입력할 수 있는 모든 기호가 할당된 기본적인 부호체계입니다.

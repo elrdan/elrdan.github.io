@@ -36,7 +36,8 @@ const config = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
 
-          sidebarPath: require.resolve('./sidebars.js')
+          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsed: true,          // 사이드바를 기본적으로 접는 상태
         },
         theme: {
           customCss: './src/css/custom.scss',
