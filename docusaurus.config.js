@@ -8,7 +8,7 @@ const github_url = "https://github.com/elrdan"
 const config = {
   title: 'Elrdan',
   tagline: '안녕하세요. 엘르단 사이트 방문을 환영합니다.',
-  favicon: 'img/blog_logo.jpg',
+  favicon: 'img/blog_logo_favicon.png',
 
   url: 'https://elrdan.github.io/',
   baseUrl: '/',
@@ -48,13 +48,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/blog_logo.jpg',
+      image: 'img/blog_logo.png',
       navbar: {
         title: '엘르단',
         logo: {
           alt: '엘르단 로고',
-          src: 'img/blog_logo.jpg',
+          src: 'img/blog_logo.png',
         },
         items: [
           {
