@@ -1,11 +1,7 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const math = require('remark-math');
+const katex = require('rehype-katex');
 const github_url = "https://github.com/elrdan"
 
 /** @type {import('@docusaurus/types').Config} */
@@ -34,8 +30,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: 'blog', // 이 문서 섹션의 기본 경로
-          // sidebarPath: ''
+          routeBasePath: '',              // BaseRoutePath
+
+          // 수학기호를 사용하기 위한 설정
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+
+          sidebarPath: require.resolve('./sidebars.js')
         },
         theme: {
           customCss: './src/css/custom.scss',
@@ -56,7 +57,13 @@ const config = {
           src: 'img/blog_logo.jpg',
         },
         items: [
-          {to: '/blog', label: '블로그', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'blog',
+            position: 'left',
+            label: '블로그',
+          },
+          // {to: '/docs', label: '블로그', position: 'left'},
           // {to: '/project', label: '프로젝트', position: 'left'},
           {
             href: github_url,
