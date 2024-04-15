@@ -38,8 +38,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '',              // BaseRoutePath
-
+          id: 'default',
+          path: 'docs',
+          routeBasePath: '/',
           // 수학기호를 사용하기 위한 설정
           remarkPlugins: [math],
           rehypePlugins: [katex],
