@@ -21,7 +21,15 @@ const config = {
 
   i18n: {
     defaultLocale: 'ko',
-    locales: ['en', 'ko'],
+    locales: ['ko', 'en'],
+    localeConfigs: {
+      ko: {
+        label: "한국어",
+      },
+      en: {
+        label: "English"
+      }
+    }
   },
 
   presets: [
@@ -63,8 +71,10 @@ const config = {
             position: 'left',
             label: '블로그',
           },
-          // {to: '/docs', label: '블로그', position: 'left'},
-          // {to: '/project', label: '프로젝트', position: 'left'},
+          {
+            type: "localeDropdown",
+            position: "right"
+          },
           {
             href: github_url,
             label: 'GitHub',
@@ -106,15 +116,13 @@ const config = {
 
   // 사용자 정의 플러그인 설정
   plugins: [
-      // [
-      //     '@docusaurus/plugin-content-docs',
-      //     {
-      //       id: 'project',
-      //       path: 'project',
-      //       routeBasePath: 'project',
-      //       sidebarPath: require.resolve('./sidebarsProject.js'),
-      //     }
-      // ],
+      [
+        '@docusaurus/plugin-google-analytics',
+        {
+          trackingID: 'G-BHY48TB1QB',
+          anonymizeIP: true, // IP 익명화 -> IP 주소의 마지막 옥텟이 제거되거나, IPv6주소의 마지막 80비트가 익명화
+        },
+      ],
       'docusaurus-plugin-sass'      // sass 설정
   ]
 };
