@@ -73,13 +73,9 @@ const config = {
             label: '블로그',
           },
           {
-            type: "localeDropdown",
-            position: "right"
-          },
-          {
             href: github_url,
-            label: 'GitHub',
-            position: 'right',
+            className: "header-github-link",
+            position: "right",
           },
         ],
       },
