@@ -2,10 +2,16 @@ module.exports = {
   blog: [
     {
       type: "category",
-      label: "도큐사우루스",
+      label: "알고리즘",
       items: [
-        "blog/docusaurus/google-analytics"
+        {
+          type: "category",
+          label: "백준",
+          items: [
+              "blog/algorithm/baekjoon/p2557"
+          ]
+        }
       ]
-    }
+    },
   ],
 };
