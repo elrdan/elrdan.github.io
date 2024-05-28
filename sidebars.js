@@ -6,9 +6,16 @@ module.exports = {
       items: [
         {
           type: "category",
+          label: "기본 개념",
+          items: [
+              "blog/algorithm/concept/DynamicProgramming"
+          ]
+        },
+        {
+          type: "category",
           label: "백준",
           items: [
-              "blog/algorithm/baekjoon/p2557"
+              "blog/algorithm/baekjoon/p2159"
           ]
         }
       ]
