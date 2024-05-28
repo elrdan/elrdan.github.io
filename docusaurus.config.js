@@ -3,7 +3,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const math = require('remark-math');
 const katex = require('rehype-katex');
 const path = require('path');
-const github_url = "https://github.com/elrdan"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -72,11 +71,6 @@ const config = {
                         sidebarId: 'blog',
                         position: 'left',
                         label: '블로그',
-                    },
-                    {
-                        href: github_url,
-                        className: "header-github-link",
-                        position: "right",
                     },
                 ],
             },
