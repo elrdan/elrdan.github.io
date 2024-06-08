@@ -8,6 +8,7 @@ module.exports = {
           type: "category",
           label: "기본 개념",
           items: [
+              "blog/algorithm/concept/PrefixSum",
               "blog/algorithm/concept/DynamicProgramming"
           ]
         },
