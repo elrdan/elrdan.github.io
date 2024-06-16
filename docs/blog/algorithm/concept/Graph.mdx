@@ -1,0 +1,64 @@
+---
+sidebar_position: 3
+sidebar_label: 3. 그래프
+keywords: [알고리즘, java, 그래프, graph]
+hide_title: true
+---
+
+import Diagram from '@component/Diagram'
+
+## 그래프(Graph)
+그래프 이론은 수학의 한 분야로, 그래프의 속성을 연구합니다. 그래프는 노드(정점)와 노드를 연결하는 에지(간선)로 이루어진 집합입니다.
+
+### 그래프
+**그래프** \( G = (V, E) \) 쌍으로 정의되며, 여기서:
+ - \(V\)는 정점의 집합입니다.
+ - \(E\)는 정점을 연결하는 간선의 집합입니다.
+
+### 정점
+**정점**(vertex, 복수형: vertices)은 그래프를 구성하는 기본 단위입니다. 그래프에서는 정점을 점으로 표시합니다.
+
+## 간선
+**간선**(edge)은 두 정점을 연결하는 선입니다. 간선은 방향이 있을 수도 있고 없을 수도 있습니다.
+
+## 그래프의 종류
+
+### 무방향 그래프
+**무방향 그래프**에서는 간선에 방향이 없습니다. 간선(u, v)는 간선(v, u)와 동일합니다.
+
+<Diagram>
+    <svg width="200" height="100">
+        <circle cx="50" cy="50" r="10" fill="blue" />
+        <circle cx="150" cy="50" r="10" fill="blue" />
+        <line x1="50" y1="50" x2="150" y2="50" stroke="black" strokeWidth="2" />
+    </svg>
+</Diagram>
+
+### 방향 그래프
+**방향 그래프**에서는 간선에 방향이 있습니다. 간선(u, v)는 간선(v, u)와 동일하지 않습니다.
+
+<Diagram>
+    <svg width="200" height="100">
+        <circle cx="50" cy="50" r="10" fill="blue" />
+        <circle cx="150" cy="50" r="10" fill="blue" />
+        <line x1="50" y1="50" x2="150" y2="50" stroke="black" strokeWidth="2" markerEnd="url(#arrow)" />
+        <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+            </marker>
+        </defs>
+    </svg>
+</Diagram>
+
+## 주요 개념
+**경로**(path)는 간선으로 연결된 일련의 정점들입니다.
+
+### 사이클
+**사이클**(cycle)은 그래프에서 시작한 정점으로 돌아오는 경로를 말합니다. 경로를 따라가면서 처음에 시작했던 정점으로 다시 돌아오는 것이 사이클입니다.
+ 이 경로는 중간에 지나간 정점이나 간선을 다시 지나지 않아야 합니다.
+
+### 연결 그래프
+그래프가 **연결**(connected)되어 있다는 것은 모든 정점 쌍 사이에 경로가 존재함을 의미합니다.
+
+### 트리
+**트리**(tree)는 사이클 없는 연결 그래프입니다. 트리에서는 두 정점 사이에 정확히 하나의 경로가 존재합니다.
