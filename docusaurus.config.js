@@ -125,6 +125,7 @@ const config = {
                         resolve: {
                             alias: {
                                 '@code/generated': path.resolve(__dirname, 'src', 'generated'),
+                                '@component': path.resolve(__dirname, 'src', 'components'),
                                 '@code': path.resolve(__dirname, 'code')
                             },
                         },
