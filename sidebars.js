@@ -9,7 +9,8 @@ module.exports = {
           label: "기본 개념",
           items: [
               "blog/algorithm/concept/PrefixSum",
-              "blog/algorithm/concept/DynamicProgramming"
+              "blog/algorithm/concept/DynamicProgramming",
+              "blog/algorithm/concept/Graph"
           ]
         },
         {
