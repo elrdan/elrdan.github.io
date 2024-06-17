@@ -1,0 +1,28 @@
+---
+title: "연결 요소의 개수 - 백준 11724"
+date: "2024-06-16"
+author: elrdan
+keywords: [알고리즘, 백준, java]
+hide_title: true
+---
+
+import CodeBlock from '@theme/CodeBlock';
+
+import code from '@code/generated/P11724.json'
+
+## 백준 11724번: 연결 요소의 개수
+[백준 - 연결 요소의 개수 문제 보기](https://www.acmicpc.net/problem/11724)
+
+### 알고리즘 설명
+이 문제를 해결하기 위해 DFS(깊이 우선 탐색) 또는 BFS(너비 우선 탐색)를 사용할 수 있습니다.
+그래프의 모든 정점을 탐색하면서 방문하지 않은 정점을 새로운 연결 요소로 간주하고, 해당 정점과 연결된 모든 정점을 방문합니다.
+
+### 알고리즘 단계
+1. 그래프를 인접 리스트로 표현합니다.
+2. 모든 정점을 방문하면서, 방문하지 않은 정점이 있다면 새로운 연결 요소로 간주하고 DFS 또는 BFS를 수행하여 모든 정점을 방문합니다.
+3. 방문하지 않은 정점이 더 이상 없을 때까지 반복합니다.
+4. 연결 요소의 개수를 출력합니다.
+
+<CodeBlock className="language-java">
+    {code.content}
+</CodeBlock>

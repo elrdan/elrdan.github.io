@@ -17,7 +17,7 @@ module.exports = {
           type: "category",
           label: "백준",
           items: [
-              "blog/algorithm/baekjoon/p2159"
+              "blog/algorithm/baekjoon/p11724"
           ]
         }
       ]
