@@ -1,0 +1,28 @@
+---
+title: "타겟 넘버 - 프로그래머스 43165"
+date: "2024-06-17"
+author: elrdan
+keywords: [알고리즘, 백준, java]
+hide_title: true
+---
+
+import CodeBlock from '@theme/CodeBlock';
+
+import code from '@code/generated/P43165.json'
+
+## 프로그래머스 43165번: 타겟 넘버
+[프로그래머스 - 타겟 넘버 문제 보기](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
+
+### 알고리즘 설명
+이 문제를 해결하기 위해 DFS(깊이 우선 탐색) 또는 BFS(너비 우선 탐색)를 사용할 수 있습니다.
+모든 경우의 수를 계산하여 마지막 index에 도달했을 때, sum의 값이 target(목표값)과 같은지를 비교하여 count를 증가 시키는 방법입니다.
+
+### 알고리즘 단계
+1. numbers, target 값을 입력받습니다.
+2. DFS를 사용하여 각 숫자에 + 또는 - 를 적용한 모든 경로를 탐색합니다.
+3. 마지막 index에 도달했을때 더해진 값(sum)이 target과 일치하는 경우의 수를 카운트합니다.
+4. 카운트 숫자를 반환합니다.
+
+<CodeBlock className="language-java">
+    {code.content}
+</CodeBlock>

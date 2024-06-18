@@ -19,6 +19,13 @@ module.exports = {
           items: [
               "blog/algorithm/baekjoon/p11724"
           ]
+        },
+        {
+          type: "category",
+          label: "프로그래머스",
+          items: [
+            "blog/algorithm/programmers/P43165"
+          ]
         }
       ]
     },
