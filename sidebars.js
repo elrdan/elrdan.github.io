@@ -26,6 +26,13 @@ module.exports = {
           items: [
             "blog/algorithm/programmers/P43165"
           ]
+        },
+        {
+          type: "category",
+          label: "알고리즘 문제",
+          items: [
+            "blog/algorithm/other/PMinMax"
+          ]
         }
       ]
     },

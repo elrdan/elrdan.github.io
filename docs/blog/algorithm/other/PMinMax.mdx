@@ -1,0 +1,26 @@
+---
+title: "최솟값과 최댓값 구하기"
+date: "2024-06-25"
+author: elrdan
+keywords: [알고리즘, 백준, java]
+hide_title: true
+---
+
+import CodeBlock from '@theme/CodeBlock';
+
+import code from '@code/generated/PMinMax.json'
+
+## 최솟값과 최댓값 구하기
+배열에 여러 개의 수가 존재할 때, 그 중 가장 큰 값과 가장 큰 값의 위치, 가장 작은 값과 가장 작은 값의 위치를 구하는 문제입니다.
+
+### 알고리즘 설명
+이 문제는 일반 반복문을 한번 사용하여 문제를 풀 수 있습니다. O(n)
+
+### 알고리즘 단계
+1. 주어진 numbers의 첫번 째 요소를 min, max 변수에 담아둡니다.
+2. numbers 크기만큼 반복하면서, 가장 작은 값과 가장 큰 값 그리고 위치 정보를 저장합니다.
+3. 반복문을 빠져나오면 가장 작은 값과 가장 큰 값 그리고 위치정보를 출력합니다.
+
+<CodeBlock className="language-java">
+    {code.content}
+</CodeBlock>
