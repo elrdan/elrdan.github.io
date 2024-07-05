@@ -20,6 +20,12 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
 
+      # 리트코드 파일 이동
+      - name: Move LeetCode Files
+        run: |
+          mkdir -p leetcode
+          find . -maxdepth 1 -type d -name '[0-9]*-*' -exec mv {} leetcode/ \;
+
       - name: Install dependencies and Build website
         run: |
           npm ci
