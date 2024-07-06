@@ -12,19 +12,28 @@ jobs:
   deploy:
     name: Deploy to Github Pages
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[LeetHub]')" # LeetHub에서 푸시된 커밋 무시
     steps:
+      - name: Check if commit is from LeetHub
+        id: check_commit
+        run: |
+          if [[ "${{ github.event.head_commit.message }}" == *"LeetHub"* ]]; then
+            echo "::set-output name=commit_is_from_leethub::true"
+          else
+            echo "::set-output name=commit_is_from_leethub::false"
+          fi
       - uses: actions/checkout@v3
         with:
           ref: main
 
       - uses: actions/setup-node@v3
+        if: steps.check_commit.outputs.commit_is_from_leethub == 'false'
         with:
           node-version: 20
           cache: npm
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies and Build website
+        if: steps.check_commit.outputs.commit_is_from_leethub == 'false'
         run: |
           npm ci
           npm run build
@@ -32,6 +41,7 @@ jobs:
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
+        if: steps.check_commit.outputs.commit_is_from_leethub == 'false'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
