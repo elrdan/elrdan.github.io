@@ -71,14 +71,17 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0098-validate-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0098-validate-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0098-validate-binary-search-tree) |
 ## Hash Table
 |  |
 | ------- |
@@ -87,4 +90,8 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/elrdan/elrdan.github.io/tree/master/0455-assign-cookies) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
