@@ -47,6 +47,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 | ------- |
 | [0179-largest-number](https://github.com/elrdan/elrdan.github.io/tree/master/0179-largest-number) |
 | [0455-assign-cookies](https://github.com/elrdan/elrdan.github.io/tree/master/0455-assign-cookies) |
+| [0561-array-partition](https://github.com/elrdan/elrdan.github.io/tree/master/0561-array-partition) |
 ## String
 |  |
 | ------- |
@@ -58,11 +59,13 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 | [0179-largest-number](https://github.com/elrdan/elrdan.github.io/tree/master/0179-largest-number) |
 | [0409-longest-palindrome](https://github.com/elrdan/elrdan.github.io/tree/master/0409-longest-palindrome) |
 | [0455-assign-cookies](https://github.com/elrdan/elrdan.github.io/tree/master/0455-assign-cookies) |
+| [0561-array-partition](https://github.com/elrdan/elrdan.github.io/tree/master/0561-array-partition) |
 ## Sorting
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/elrdan/elrdan.github.io/tree/master/0179-largest-number) |
 | [0455-assign-cookies](https://github.com/elrdan/elrdan.github.io/tree/master/0455-assign-cookies) |
+| [0561-array-partition](https://github.com/elrdan/elrdan.github.io/tree/master/0561-array-partition) |
 ## Stack
 |  |
 | ------- |
@@ -94,4 +97,8 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0098-validate-binary-search-tree) |
+## Counting Sort
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/elrdan/elrdan.github.io/tree/master/0561-array-partition) |
 <!---LeetCode Topics End-->
