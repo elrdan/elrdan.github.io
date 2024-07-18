@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/elrdan/elrdan.github.io/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/elrdan/elrdan.github.io/tree/master/0011-container-with-most-water) |
 ## String
 |  |
 | ------- |
@@ -32,4 +33,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0101-symmetric-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0102-binary-tree-level-order-traversal) |
+## Array
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/elrdan/elrdan.github.io/tree/master/0011-container-with-most-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/elrdan/elrdan.github.io/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
