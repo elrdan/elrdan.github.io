@@ -20,20 +20,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0101-symmetric-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0102-binary-tree-level-order-traversal) |
+| [0112-path-sum](https://github.com/elrdan/elrdan.github.io/tree/master/0112-path-sum) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0101-symmetric-tree) |
+| [0112-path-sum](https://github.com/elrdan/elrdan.github.io/tree/master/0112-path-sum) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0102-binary-tree-level-order-traversal) |
+| [0112-path-sum](https://github.com/elrdan/elrdan.github.io/tree/master/0112-path-sum) |
 ## Binary Tree
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0102-binary-tree-level-order-traversal) |
+| [0112-path-sum](https://github.com/elrdan/elrdan.github.io/tree/master/0112-path-sum) |
 ## Array
 |  |
 | ------- |
