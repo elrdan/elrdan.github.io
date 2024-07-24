@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/elrdan/elrdan.github.io/tree/master/0005-longest-palindromic-substring) |
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
+| [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/elrdan/elrdan.github.io/tree/master/0011-container-with-most-water) |
 | [0035-search-insert-position](https://github.com/elrdan/elrdan.github.io/tree/master/0035-search-insert-position) |
+| [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 ## Greedy
 |  |
 | ------- |
@@ -60,4 +62,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
