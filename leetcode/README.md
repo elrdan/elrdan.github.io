@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/elrdan/elrdan.github.io/tree/master/0005-longest-palindromic-substring) |
 | [0062-unique-paths](https://github.com/elrdan/elrdan.github.io/tree/master/0062-unique-paths) |
+| [0221-maximal-square](https://github.com/elrdan/elrdan.github.io/tree/master/0221-maximal-square) |
 ## Tree
 |  |
 | ------- |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/elrdan/elrdan.github.io/tree/master/0035-search-insert-position) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 | [0217-contains-duplicate](https://github.com/elrdan/elrdan.github.io/tree/master/0217-contains-duplicate) |
+| [0221-maximal-square](https://github.com/elrdan/elrdan.github.io/tree/master/0221-maximal-square) |
 ## Greedy
 |  |
 | ------- |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
+| [0221-maximal-square](https://github.com/elrdan/elrdan.github.io/tree/master/0221-maximal-square) |
 ## Combinatorics
 |  |
 | ------- |
