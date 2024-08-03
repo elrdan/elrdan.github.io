@@ -5,6 +5,19 @@ module.exports = {
       label: "알고리즘",
       items: [
         {
+          type: 'category',
+          label: '툴 및 리소스',
+          items: [
+            {
+              type: "category",
+              label: "리트코드 깃허브 연동",
+              items: [
+                "blog/algorithm/toolResource/LeetCodeSetting"
+              ]
+            }
+          ]
+        },
+        {
           type: "category",
           label: "기본 개념",
           items: [

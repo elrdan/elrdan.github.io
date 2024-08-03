@@ -4,7 +4,7 @@
     color: white;
     .titleWrapper {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         height: 200px;
 
@@ -15,15 +15,6 @@
 
             .title {
                 font-size: 1.4em;
-            }
-        }
-
-        .titleCharacter {
-            width: 150px;
-            height: 150px;
-
-            img {
-                border-radius: 50%;
             }
         }
     }

@@ -10,7 +10,6 @@ public class PBinarySearch {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int[] numbers = {21, 40, 53, 80, 85, 89, 92, 100};
-		// 찾을 숫자
 		int target = Integer.parseInt(br.readLine());
 
 		int start = 0;

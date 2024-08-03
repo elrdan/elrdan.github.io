@@ -1,5 +1,5 @@
 ---
-title: "최솟값과 최댓값 구하기"
+title: "정렬된 배열에 목표 숫자 찾기"
 date: "2024-06-25"
 author: elrdan
 keywords: [알고리즘, java]
@@ -10,11 +10,11 @@ import CodeBlock from '@theme/CodeBlock';
 
 import code from '@code/generated/PMinMax.json'
 
-## 최솟값과 최댓값 구하기
-배열에 여러 개의 수가 존재할 때, 그 중 가장 큰 값과 가장 큰 값의 위치, 가장 작은 값과 가장 작은 값의 위치를 구하는 문제입니다.
+## 정렬된 배열에 목표 숫자 찾기
+정렬된 배열이 주어졌을때, 그 배열 안에서 목표하는 숫자를 찾는 문제입니다.
 
 ### 알고리즘 설명
-이 문제는 일반 반복문을 한번 사용하여 문제를 풀 수 있습니다. O(n)
+이 문제는 이진 탐색(Binary Search)를 사용하여 풀 수 있습니다. O(logN)
 
 ### 알고리즘 단계
 1. 주어진 numbers의 첫번 째 요소를 min, max 변수에 담아둡니다.

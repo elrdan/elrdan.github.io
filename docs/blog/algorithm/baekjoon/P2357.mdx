@@ -1,0 +1,27 @@
+---
+title: "최솟값과 최댓값 - 백준 2357"
+date: "2024-06-24"
+author: elrdan
+keywords: [알고리즘, 백준, java]
+hide_title: true
+---
+
+import CodeBlock from '@theme/CodeBlock';
+
+import code from '@code/generated/P11724.json'
+
+## 백준 2357번: 최솟값과 최댓값
+[백준 - 연결 요소의 개수 문제 보기](https://www.acmicpc.net/problem/2357)
+
+### 알고리즘 설명
+이 문제를 해결하기 위해 세그먼트 트리를 사용합니다.
+
+### 알고리즘 단계
+1. 세그먼트 트리 구성합니다.
+2. 하나의 세그먼트 트리 노드는 해당 범위의 최솟값 또는 최댓값을 저장합니다.
+3. 특정 범위에 대한 최솟값과 최댓값을 구하는 쿼리 함수 구현하여 특정 범위를 넣어 값을 넣고 반환받은 값을 StringBuilder에 저장합니다.
+4. StringBuilder 저장되어있는 결과값을 출력합니다.
+
+<CodeBlock className="language-java">
+    {code.content}
+</CodeBlock>
