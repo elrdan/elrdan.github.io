@@ -111,7 +111,7 @@ const config = {
         [
             '@docusaurus/plugin-google-analytics',
             {
-                trackingID: 'G-BHY48TB1QB',
+                trackingID: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
                 anonymizeIP: true, // IP 익명화 -> IP 주소의 마지막 옥텟이 제거되거나, IPv6주소의 마지막 80비트가 익명화
             },
         ],
