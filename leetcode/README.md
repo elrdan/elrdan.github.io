@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/elrdan/elrdan.github.io/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/elrdan/elrdan.github.io/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
+| [0071-simplify-path](https://github.com/elrdan/elrdan.github.io/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 ## Dynamic Programming
 |  |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/elrdan/elrdan.github.io/tree/master/0071-simplify-path) |
 | [0145-binary-tree-postorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0145-binary-tree-postorder-traversal) |
 ## Sorting
 |  |
