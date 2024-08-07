@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/elrdan/elrdan.github.io/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/elrdan/elrdan.github.io/tree/master/0035-search-insert-position) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
+| [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
 | [0217-contains-duplicate](https://github.com/elrdan/elrdan.github.io/tree/master/0217-contains-duplicate) |
 | [0221-maximal-square](https://github.com/elrdan/elrdan.github.io/tree/master/0221-maximal-square) |
 ## Greedy
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
+| [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -105,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/elrdan/elrdan.github.io/tree/master/0083-remove-duplicates-from-sorted-list) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
