@@ -17,12 +17,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
 | [0071-simplify-path](https://github.com/elrdan/elrdan.github.io/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/elrdan/elrdan.github.io/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/elrdan/elrdan.github.io/tree/master/0005-longest-palindromic-substring) |
 | [0062-unique-paths](https://github.com/elrdan/elrdan.github.io/tree/master/0062-unique-paths) |
 | [0118-pascals-triangle](https://github.com/elrdan/elrdan.github.io/tree/master/0118-pascals-triangle) |
+| [0131-palindrome-partitioning](https://github.com/elrdan/elrdan.github.io/tree/master/0131-palindrome-partitioning) |
 | [0221-maximal-square](https://github.com/elrdan/elrdan.github.io/tree/master/0221-maximal-square) |
 ## Tree
 |  |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/elrdan/elrdan.github.io/tree/master/0131-palindrome-partitioning) |
 ## Matrix
 |  |
 | ------- |
