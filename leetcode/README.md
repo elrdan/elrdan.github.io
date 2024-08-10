@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/elrdan/elrdan.github.io/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/elrdan/elrdan.github.io/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/elrdan/elrdan.github.io/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0086-partition-list](https://github.com/elrdan/elrdan.github.io/tree/master/0086-partition-list) |
 ## String
 |  |
 | ------- |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/elrdan/elrdan.github.io/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0086-partition-list](https://github.com/elrdan/elrdan.github.io/tree/master/0086-partition-list) |
 ## Bit Manipulation
 |  |
 | ------- |
