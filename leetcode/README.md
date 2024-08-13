@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/elrdan/elrdan.github.io/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/elrdan/elrdan.github.io/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/elrdan/elrdan.github.io/tree/master/0035-search-insert-position) |
+| [0066-plus-one](https://github.com/elrdan/elrdan.github.io/tree/master/0066-plus-one) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/elrdan/elrdan.github.io/tree/master/0118-pascals-triangle) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/elrdan/elrdan.github.io/tree/master/0007-reverse-integer) |
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
 | [0062-unique-paths](https://github.com/elrdan/elrdan.github.io/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/elrdan/elrdan.github.io/tree/master/0066-plus-one) |
 ## Binary Search
 |  |
 | ------- |
