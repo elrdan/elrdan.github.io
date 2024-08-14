@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/elrdan/elrdan.github.io/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/elrdan/elrdan.github.io/tree/master/0020-valid-parentheses) |
+| [0067-add-binary](https://github.com/elrdan/elrdan.github.io/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/elrdan/elrdan.github.io/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/elrdan/elrdan.github.io/tree/master/0131-palindrome-partitioning) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
 | [0062-unique-paths](https://github.com/elrdan/elrdan.github.io/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/elrdan/elrdan.github.io/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/elrdan/elrdan.github.io/tree/master/0067-add-binary) |
 ## Binary Search
 |  |
 | ------- |
@@ -121,5 +123,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/elrdan/elrdan.github.io/tree/master/0067-add-binary) |
 | [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/elrdan/elrdan.github.io/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
