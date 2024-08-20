@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/elrdan/elrdan.github.io/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/elrdan/elrdan.github.io/tree/master/0027-remove-element) |
 | [0086-partition-list](https://github.com/elrdan/elrdan.github.io/tree/master/0086-partition-list) |
+| [0125-valid-palindrome](https://github.com/elrdan/elrdan.github.io/tree/master/0125-valid-palindrome) |
 ## String
 |  |
 | ------- |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/elrdan/elrdan.github.io/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/elrdan/elrdan.github.io/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/elrdan/elrdan.github.io/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/elrdan/elrdan.github.io/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
 |  |
