@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/elrdan/elrdan.github.io/tree/master/0027-remove-element) |
 | [0086-partition-list](https://github.com/elrdan/elrdan.github.io/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/elrdan/elrdan.github.io/tree/master/0125-valid-palindrome) |
+| [0202-happy-number](https://github.com/elrdan/elrdan.github.io/tree/master/0202-happy-number) |
 ## String
 |  |
 | ------- |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/elrdan/elrdan.github.io/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/elrdan/elrdan.github.io/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/elrdan/elrdan.github.io/tree/master/0067-add-binary) |
+| [0202-happy-number](https://github.com/elrdan/elrdan.github.io/tree/master/0202-happy-number) |
 ## Binary Search
 |  |
 | ------- |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/elrdan/elrdan.github.io/tree/master/0012-integer-to-roman) |
+| [0202-happy-number](https://github.com/elrdan/elrdan.github.io/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/elrdan/elrdan.github.io/tree/master/0217-contains-duplicate) |
 ## Backtracking
 |  |
