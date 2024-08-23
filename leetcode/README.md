@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/elrdan/elrdan.github.io/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/elrdan/elrdan.github.io/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/elrdan/elrdan.github.io/tree/master/0131-palindrome-partitioning) |
+| [0198-house-robber](https://github.com/elrdan/elrdan.github.io/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/elrdan/elrdan.github.io/tree/master/0221-maximal-square) |
 ## Tree
 |  |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/elrdan/elrdan.github.io/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/elrdan/elrdan.github.io/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0198-house-robber](https://github.com/elrdan/elrdan.github.io/tree/master/0198-house-robber) |
 | [0217-contains-duplicate](https://github.com/elrdan/elrdan.github.io/tree/master/0217-contains-duplicate) |
 | [0221-maximal-square](https://github.com/elrdan/elrdan.github.io/tree/master/0221-maximal-square) |
 ## Greedy
