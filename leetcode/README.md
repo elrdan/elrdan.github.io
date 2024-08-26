@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/elrdan/elrdan.github.io/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/elrdan/elrdan.github.io/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/elrdan/elrdan.github.io/tree/master/0086-partition-list) |
+| [0203-remove-linked-list-elements](https://github.com/elrdan/elrdan.github.io/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/elrdan/elrdan.github.io/tree/master/0206-reverse-linked-list) |
 ## Bit Manipulation
 |  |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/elrdan/elrdan.github.io/tree/master/0021-merge-two-sorted-lists) |
+| [0203-remove-linked-list-elements](https://github.com/elrdan/elrdan.github.io/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/elrdan/elrdan.github.io/tree/master/0206-reverse-linked-list) |
 ## Database
 |  |
