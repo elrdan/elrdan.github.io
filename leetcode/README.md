@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0101-symmetric-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0102-binary-tree-level-order-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/elrdan/elrdan.github.io/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0145-binary-tree-postorder-traversal) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0101-symmetric-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0102-binary-tree-level-order-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0112-path-sum](https://github.com/elrdan/elrdan.github.io/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/elrdan/elrdan.github.io/tree/master/0145-binary-tree-postorder-traversal) |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/elrdan/elrdan.github.io/tree/master/0066-plus-one) |
 | [0079-word-search](https://github.com/elrdan/elrdan.github.io/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/elrdan/elrdan.github.io/tree/master/0090-subsets-ii) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/elrdan/elrdan.github.io/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/elrdan/elrdan.github.io/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/elrdan/elrdan.github.io/tree/master/0198-house-robber) |
@@ -174,4 +177,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/elrdan/elrdan.github.io/tree/master/0204-count-primes) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/elrdan/elrdan.github.io/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 <!---LeetCode Topics End-->
