@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/elrdan/elrdan.github.io/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/elrdan/elrdan.github.io/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/elrdan/elrdan.github.io/tree/master/0016-3sum-closest) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/elrdan/elrdan.github.io/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/elrdan/elrdan.github.io/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/elrdan/elrdan.github.io/tree/master/0027-remove-element) |
 | [0086-partition-list](https://github.com/elrdan/elrdan.github.io/tree/master/0086-partition-list) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/elrdan/elrdan.github.io/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/elrdan/elrdan.github.io/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/elrdan/elrdan.github.io/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/elrdan/elrdan.github.io/tree/master/0086-partition-list) |
