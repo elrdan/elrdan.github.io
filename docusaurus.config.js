@@ -3,15 +3,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const math = require('remark-math');
 const katex = require('rehype-katex');
 const path = require('path');
-const dotenv = require('dotenv');
-const env = process.env.NODE_ENV || 'development'; // 환경 변수를 설정, 기본값은 'development'
-
-// 환경에 따라 다른 .env 파일을 로드
-if (env === 'production') {
-    dotenv.config({ path: '.env.production' });
-} else {
-    dotenv.config({ path: '.env' });
-}
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -39,11 +30,6 @@ const config = {
                 label: "English"
             }
         }
-    },
-
-    customFields: {
-        githubClientId: process.env.GITHUB_CLIENT_ID,  // Client ID 사용
-        githubCallbackUrl: process.env.GITHUB_CALLBACK_URL,  // Callback URL 사용
     },
 
     presets: [
