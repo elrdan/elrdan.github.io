@@ -32,13 +32,6 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
 
-      # .env.production 파일을 .env로 복사하여 사용
-      - name: Load .env.production
-        if: steps.check_commit.outputs.commit_is_from_leethub == 'false'
-        run: |
-          cp .env.production .env
-        shell: bash
-
       - name: Install dependencies and Build website
         if: steps.check_commit.outputs.commit_is_from_leethub == 'false'
         run: |
@@ -46,7 +39,6 @@ jobs:
           npm run build
         env:
           GOOGLE_ANALYTICS_TRACKING_ID: ${{ secrets.GOOGLE_ANALYTICS_TRACKING_ID }}
-          NODE_ENV: production  # 프로덕션 환경 설정
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
