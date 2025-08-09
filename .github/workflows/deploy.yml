@@ -28,7 +28,6 @@ jobs:
 
       # 의존성 설치(npm ci) 후 Docusaurus 빌드
       - name: Install dependencies and Build website
-        if: steps.check_commit.outputs.commit_is_from_leethub == 'false'
         run: |
           npm ci
           npm run build
