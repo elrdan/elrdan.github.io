@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   // 사이트 기본 메타 정보
   title: 'Elrdan',
-  tagline: '안녕하세요. 엘르단 사이트 방문을 환영합니다.',
+  tagline: '개발 문서 & 블로그 — 빠르게 찾고, 바로 적용',
   favicon: 'img/blog_logo_favicon.png',
 
   future: {
@@ -66,7 +66,7 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
 
-          routeBasePath: '/'
+          routeBasePath: '/docs'
         },
 
         // 커스텀 CSS
@@ -98,9 +98,9 @@ const config: Config = {
         src: 'img/blog_logo.png',
       },
       items: [
-        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: '문서'},
-        {to: '/blog', label: '블로그', position: 'left'},
         {to: '/about', label: '소개', position: 'left'},
+        {to: '/blog', label: '블로그', position: 'left'},
+        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: '문서'},
         {to: '/contact', label: '문의', position: 'left'},
         {
           href: 'https://github.com/elrdan/elrdan.github.io',
