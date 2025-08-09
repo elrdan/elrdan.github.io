@@ -11,6 +11,9 @@
 # idea
 .idea/**
 
+# 정리안된 file
+.trash/**
+
 # Misc
 .DS_Store
 .env.local
