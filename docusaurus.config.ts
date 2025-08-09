@@ -1,7 +1,7 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // Docusaurus 타입 (자동 완성/타입체크)
-import type {Config} from '@docusaurus/types';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -35,9 +35,9 @@ const config: Config = {
     locales: ['ko'],
     localeConfigs: {
       ko: {
-        label: "한국어"
-      }
-    }
+        label: '한국어',
+      },
+    },
   },
 
   presets: [
@@ -50,7 +50,7 @@ const config: Config = {
           routeBasePath: 'docs',
           editUrl: 'https://github.com/elrdan/elrdan.github.io/tree/main/',
         },
-        
+
         // Blog 섹션
         blog: {
           showReadingTime: true,
@@ -66,14 +66,13 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
 
-          routeBasePath: '/docs'
+          routeBasePath: '/blog',
         },
 
         // 커스텀 CSS
         theme: {
           customCss: './src/css/custom.css',
         },
-
       } satisfies Preset.Options,
     ],
   ],
@@ -98,10 +97,10 @@ const config: Config = {
         src: 'img/blog_logo.png',
       },
       items: [
-        {to: '/about', label: '소개', position: 'left'},
-        {to: '/blog', label: '블로그', position: 'left'},
-        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: '문서'},
-        {to: '/contact', label: '문의', position: 'left'},
+        { to: '/about', label: '소개', position: 'left' },
+        { to: '/blog', label: '블로그', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: '문서' },
+        { to: '/contact', label: '문의', position: 'left' },
         {
           href: 'https://github.com/elrdan/elrdan.github.io',
           label: 'GitHub',
@@ -115,22 +114,22 @@ const config: Config = {
         {
           title: '문서',
           items: [
-            {label: '시작하기', to: '/docs/intro'},
-            {label: '가이드', to: '/docs/guide/overview'},
+            { label: '시작하기', to: '/docs/intro' },
+            { label: '가이드', to: '/docs/guide/overview' },
           ],
         },
         {
           title: '커뮤니티',
           items: [
-            {label: '블로그', to: '/blog'},
-            {label: 'GitHub', href: 'https://github.com/elrdan/elrdan.github.io'},
+            { label: '블로그', to: '/blog' },
+            { label: 'GitHub', href: 'https://github.com/elrdan/elrdan.github.io' },
           ],
         },
         {
           title: 'ELRDAN',
           items: [
-            {label: '소개', to: '/about'},
-            {label: '문의', to: '/contact'},
+            { label: '소개', to: '/about' },
+            { label: '문의', to: '/contact' },
           ],
         },
       ],
