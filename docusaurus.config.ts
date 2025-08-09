@@ -113,10 +113,7 @@ const config: Config = {
       links: [
         {
           title: '문서',
-          items: [
-            { label: '시작하기', to: '/docs/intro' },
-            { label: '가이드', to: '/docs/guide/overview' },
-          ],
+          items: [{ label: '시작하기', to: '/docs/intro' }],
         },
         {
           title: '커뮤니티',
