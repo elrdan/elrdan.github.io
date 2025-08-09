@@ -46,7 +46,8 @@ const config: Config = {
       {
         // Docs 섹션 (개발 문서 활용)
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: require.resolve('./sidebars.ts'),
+          routeBasePath: 'docs',
           editUrl: 'https://github.com/elrdan/elrdan.github.io/tree/main/',
         },
         
@@ -57,6 +58,9 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          blogTitle: '블로그',
+          blogDescription: '개발 기록과 소식',
+          postsPerPage: 10,
           editUrl: 'https://github.com/elrdan/elrdan.github.io/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -94,13 +98,10 @@ const config: Config = {
         src: 'img/blog_logo.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'blog',
-          position: 'left',
-          label: '블로그',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: '문서'},
+        {to: '/blog', label: '블로그', position: 'left'},
+        {to: '/about', label: '소개', position: 'left'},
+        {to: '/contact', label: '문의', position: 'left'},
         {
           href: 'https://github.com/elrdan/elrdan.github.io',
           label: 'GitHub',
@@ -112,46 +113,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '문서',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
+            {label: '시작하기', to: '/docs/intro'},
+            {label: '가이드', to: '/docs/guide/overview'},
           ],
         },
         {
-          title: 'Community',
+          title: '커뮤니티',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+            {label: '블로그', to: '/blog'},
+            {label: 'GitHub', href: 'https://github.com/elrdan/elrdan.github.io'},
           ],
         },
         {
-          title: 'More',
+          title: 'ELRDAN',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            {label: '소개', to: '/about'},
+            {label: '문의', to: '/contact'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Elrdan.`,
     },
 
     prism: {
